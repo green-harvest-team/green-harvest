@@ -45,8 +45,12 @@ body {
 /* Header */
 /* Styles for mobile screens 375px - Mobile First */
 
+
+
+/* Media Query fior Tablet */
 @media screen and (min-width: 768px) {
 }
+/* Media Query for Desktop */
 @media screen and (min-width: 1280px) {
 }
 
