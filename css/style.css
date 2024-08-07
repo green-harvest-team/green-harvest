@@ -1,0 +1,68 @@
+/* Reset Css */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ROOT */
+
+:root {
+  /* Color Palette */
+  --text: #141414;
+  --background: #576f35;
+  --background-2: #7a3145;
+  --main-text: #fbfbfb;
+  /* Font */
+  --font-family: "Inter Tight", sans-serif;
+}
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  /* color: var(--text); */
+  /* background-color: var(--background); */
+}
+
+/* Header */
+/* Styles for mobile screens 375px - Mobile First */
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1280px) {
+}
+
+/* Burger Menu */
+
+/* Main */
+/* Section One */
+
+/* Section Two */
+
+/* Section Three */
+
+/* Section Four */
+
+/* Section Five */
+
+/* Section Six */
+
+/* Footer */
