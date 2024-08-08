@@ -35,20 +35,18 @@ button {
   /* Font */
   --font-family: "Inter Tight", sans-serif;
 }
+
+/* Styles for mobile screens 375px - Mobile First */
 body {
   font-family: var(--font-family);
   font-size: 16px;
-  /* color: var(--text); */
-  /* background-color: var(--background); */
+}
+/* Helper Class */
+.container {
+  max-width: 335px;
 }
 
 /* Header */
-/* Styles for mobile screens 375px - Mobile First */
-
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1280px) {
-}
 
 /* Burger Menu */
 

@@ -1,0 +1,41 @@
+/* ROOT */
+
+:root {
+  /* Color Palette */
+  --text: #141414;
+  --background: #576f35;
+  --background-2: #7a3145;
+  --main-text: #fbfbfb;
+  /* Font */
+  --font-family: "Inter Tight", sans-serif;
+}
+/* Styles for tablet screens 768px - Mobile First */
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  /* Helper Class */
+  .container {
+    max-width: 704px;
+  }
+
+  /* Header */
+
+  /* Burger Menu */
+
+  /* Main */
+  /* Section One */
+
+  /* Section Two */
+
+  /* Section Three */
+
+  /* Section Four */
+
+  /* Section Five */
+
+  /* Section Six */
+
+  /* Footer */
+}
