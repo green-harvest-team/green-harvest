@@ -1,6 +1,4 @@
 // Main JS
-
-// Burger Menu Js (Onektir................................................................)
 const menuOpenButton = document.getElementById("menu-open-button");
 const menuHamburger = document.getElementById("hamburger-menu");
 const menuCloseButton = document.getElementById("menu-close-button");
