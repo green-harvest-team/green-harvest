@@ -31,7 +31,54 @@ body {
 
   /* Section Three */
 
-  /* Section Four */
+  /* Section Four */ /* Levent KOYBASI */
+  .fresh-harvest-main-container {
+    padding: 100px 70px;
+    min-width: 768px;
+  }
+  .fresh-harvest-container {
+    min-width: 638px;
+  }
+  .fresh-harvest {
+    margin-left: -38px;
+    align-self: self-start;
+    width: 640px;
+    gap: 25px;
+  }
+  .fresh-harvest-title {
+    font-size: 64px;
+    line-height: 100%;
+  }
+  .fesh-harvest-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .ordering-form-container {
+    padding: 50px 100px;
+    width: 628px;
+    margin-bottom: 25px;
+  }
+  .ordering-form {
+    width: 428px;
+    gap: 40px;
+  }
+  .form textarea {
+    margin-bottom: 10px;
+  }
+  .order-social {
+    gap: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    width: 628px;
+  }
+  .social-img {
+    background-size: 110%;
+    width: 528px;
+    height: 273px;
+  }
+  .social-links {
+    gap: 12px;
+  }
 
   /* Section Five */
   .section-five {

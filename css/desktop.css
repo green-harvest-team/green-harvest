@@ -31,7 +31,44 @@ body {
 
   /* Section Three */
 
-  /* Section Four */
+
+  /* Section Four */ /* Levent KOYBASI */
+  .fresh-harvest-main-container {
+    padding: 100px 100px;
+    min-width: 1280px;
+  }
+  .fresh-harvest-container {
+    min-width: 1080px;
+  }
+  .fresh-harvest {
+    align-self: self-start;
+    width: 751px;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+  .order-form-social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .ordering-form-container {
+    border-radius: 30px;
+    padding: 50px;
+    width: 529px;
+    height: 534px;
+  }
+  .order-social {
+    border-radius: 30px;
+    padding: 50px;
+    width: 527px;
+    height: 534px;
+  }
+  .social-img {
+    border-radius: 15px;
+    width: 427px;
+    height: 273px;
+  }
+ 
 
   /* Section Five Sudenur ÇELİK*/
   .section-five {
