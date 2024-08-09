@@ -81,7 +81,43 @@ body {
   }
 
   /* Section Five */
-
+  .section-five {
+    padding: 100px 32px;
+    height: 701px;
+  }
+  .reviews-header {
+    width: 553px;
+  }
+  .reviews-header p {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .section-reviews {
+    font-size: 64px;
+    line-height: 100%;
+  }
+  .customer {
+    display: flex;
+    gap: 18px;
+  }
+  .customer-card {
+    padding: 20px;
+    width: 343px;
+    height: 258px;
+    margin-top: 50px;
+  }
+  .customer-card:nth-child(2) {
+    display: flex;
+  }
+  .card-details h3 {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  .card-details p {
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(20, 20, 20, 0.4);
+  }
   /* Section Six */
 
   /* Footer */

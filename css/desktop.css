@@ -17,7 +17,7 @@ body {
 @media screen and (min-width: 1280px) {
   /* Helper Class */
   .container {
-    max-width: 1080px;
+    max-width: 1280px;
   }
 
   /* Header */
@@ -30,6 +30,7 @@ body {
   /* Section Two */
 
   /* Section Three */
+
 
   /* Section Four */ /* Levent KOYBASI */
   .fresh-harvest-main-container {
@@ -67,8 +68,20 @@ body {
     width: 427px;
     height: 273px;
   }
-  /* Section Five */
+ 
 
+  /* Section Five Sudenur ÇELİK*/
+  .section-five {
+    padding: 100px;
+    width: 1280px;
+    height: 701px;
+  }
+  .customer {
+    gap: 25px;
+  }
+  .customer-card:nth-child(3) {
+    display: flex;
+  }
   /* Section Six */
 
   /* Footer */

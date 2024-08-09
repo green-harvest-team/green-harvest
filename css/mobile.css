@@ -223,7 +223,80 @@ body {
 @media screen and (min-min-width: 320px) {
 }
 
-/* Section Five */
+/* Section Five Sudenur ÇELİK*/
+.section-five {
+  padding: 80px 20px;
+  height: 662px;
+}
+.reviews-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 335px;
+}
+.section-reviews {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.section-customers {
+  color: var(--background);
+}
+.reviews-header p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--text);
+}
+
+.customer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px 16px 38px 16px;
+  width: 335px;
+  height: 238px;
+  margin: 40px 0 80px 0;
+}
+.customer-card:nth-child(2),
+.customer-card:nth-child(3) {
+  display: none;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.customer-card img {
+  display: block;
+  margin: 0 auto;
+}
+.card-details p {
+  margin: 0 7px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+.card-details h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+}
 
 /* Section Six */
 
