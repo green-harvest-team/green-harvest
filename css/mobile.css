@@ -64,3 +64,150 @@ body {
 /* Section Six */
 
 /* Footer */
+footer {
+  background-color: #7a3145;
+  min-width: 375px;
+  height: auto;
+  padding: 40px 0px 40px;
+  width: Hug (375px) px;
+  height: Hug (520px) px;
+  top: 7412px;
+  padding: 40px 20px 40px 20px;
+  gap: 80px;
+  opacity: 0px;
+}
+
+.position-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-par-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.logo-svg {
+  fill: #ffffff;
+}
+.logo-tab-des {
+  display: none;
+}
+
+.footer-par {
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+}
+
+.section-list-container {
+  margin-top: 40px;
+}
+.anchor {
+  color: rgba(251, 251, 251, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.anchor:hover,
+.anchor:focus {
+  color: #576f57;
+}
+.local-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.local-links-items {
+  font-family: "Inter Tight";
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.nav-lists {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.tel-add {
+  max-width: 215px;
+  width: Fixed (215px) px;
+  height: Hug (68px) px;
+  gap: 14px;
+  opacity: 0px;
+}
+.tel-address {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tel-address-items {
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.tel-address-link {
+  max-width: 179px;
+  color: rgba(251, 251, 251, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.tel-address-link:hover,
+.tel-address-link:focus {
+  color: #576f57;
+}
+
+.priv-pol-container {
+  margin-top: 80px;
+}
+
+.priv-pol-list {
+  display: flex;
+  justify-content: space-between;
+}
+.priv-pol {
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.down-link {
+  color: rgba(251, 251, 251, 0.5);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: -0.015em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.priv-pol-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(251, 251, 251, 0.5);
+}
+.priv-pol-link:hover,
+.priv-pol-linkfocus {
+  color: #576f57;
+}

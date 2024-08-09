@@ -38,4 +38,41 @@ body {
   /* Section Six */
 
   /* Footer */
+  footer {
+    min-width: 1280px;
+    padding: 50px 0px;
+    width: Fixed (1, 280px) px;
+    height: Hug (391px) px;
+    top: 4906px;
+    padding: 50px 100px 50px 100px;
+    gap: 125px;
+    opacity: 0px;
+  }
+  .footer-wrap {
+    flex-direction: row;
+  }
+  .des-position {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .section-list-container {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .tel-address {
+    margin-top: 0px;
+  }
+  .tel-address-link {
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .priv-pol-container {
+    margin-top: 125px;
+  }
 }
