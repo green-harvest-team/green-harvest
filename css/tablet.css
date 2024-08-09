@@ -38,11 +38,12 @@ body {
   }
   .fresh-harvest-container {
     min-width: 638px;
-    gap: 25px;
   }
   .fresh-harvest {
     margin-left: -38px;
+    align-self: self-start;
     width: 640px;
+    gap: 25px;
   }
   .fresh-harvest-title {
     font-size: 64px;
@@ -74,6 +75,9 @@ body {
     background-size: 110%;
     width: 528px;
     height: 273px;
+  }
+  .social-links {
+    gap: 12px;
   }
 
   /* Section Five */

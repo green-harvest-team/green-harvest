@@ -43,7 +43,7 @@ body {
 }
 /* Helper Class */
 .container {
-  max-min-width: 335px;
+  min-width: 335px;
 }
 
 /* Header */
@@ -140,21 +140,22 @@ body {
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 30px;
   padding: 14px 16px;
-  min-min-width: 295px;
+  min-width: 295px;
   height: 46px;
 }
 .form textarea {
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 15px;
   padding: 14px 0px 59px 16px;
-  min-min-width: 295px;
+  min-width: 295px;
   height: auto;
   margin-bottom: 5px;
 }
 .btn {
+  border: none;
   border-radius: 30px;
   padding: 16px 129px;
-  min-min-width: 295px;
+  min-width: 295px;
   height: 50px;
   background: var(--background);
 
