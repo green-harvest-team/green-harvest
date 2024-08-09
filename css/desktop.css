@@ -17,11 +17,109 @@ body {
 @media screen and (min-width: 1280px) {
   /* Helper Class */
   .container {
-    max-width: 1080px;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
   /* Header */
 
+  .header {
+    position: relative;
+  }
+  .header-content {
+    position: absolute;
+    display: flex;
+    width: 1080px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    margin: 0 100px;
+  }
+  .header-logo {
+    gap: 8px;
+  }
+  .header-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-navbar-pages {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+  }
+  .header-navbar-pages-list {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    padding: 12px;
+    border-radius: 12px;
+    transition: 0.25s;
+  }
+  .header-navbar-pages-list:hover {
+    background-color: var(--beige);
+    color: var(--purple-hover);
+  }
+  .header-navbar-button {
+    display: block;
+    border: none;
+    border-radius: 26px;
+    padding: 16px 32px;
+    background-color: var(--purple);
+    color: var(--beige);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    transition: 0.25s;
+  }
+  .header-navbar-button:hover {
+    background-color: var(--purple-hover);
+  }
+  .header-menu {
+    display: none;
+  }
+  /* ------------------------- HEADER > HERO ------------------------- */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #576f35;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: initial;
+    gap: 28px;
+    z-index: 1;
+    padding-left: 100px;
+  }
+  .hero-content-left {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 128px;
+    padding-bottom: 50px;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+  .hero-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    max-width: 472px;
+  }
+  .hero-bgimage {
+    min-width: 650px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .header-menu-background {
+    display: none;
+  }
   /* Burger Menu */
 
   /* Main */

@@ -21,6 +21,140 @@ body {
   }
 
   /* Header */
+  .header {
+    background-color: #576f35;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+  }
+  .header-logo {
+    display: flex;
+    align-items: inherit;
+  }
+  .header-navbar {
+    display: none;
+  }
+  /* HERO */
+  .hero {
+    background-color: #576f35;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .hero-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 18px 32px 50px;
+    max-width: 1268px;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+  .hero-paragraph {
+    font-size: 14px;
+    line-height: 125%;
+    max-width: 603px;
+  }
+  .hero-bgimage {
+    display: flex;
+    justify-content: center;
+    height: 539px;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* MENU MODAL */
+  .header-menu-background {
+    display: none;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(20, 20, 20, 0.4);
+  }
+  .header-menu-modal {
+    position: absolute;
+    left: auto;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--purple);
+    width: 351px;
+    height: 100%;
+    padding: 40px;
+  }
+  .header-menu-modal-close-button {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .header-menu-modal-close {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .header-menu-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .header-menu-modal-pages {
+    display: flex;
+    flex-direction: column;
+    padding-top: 288px;
+    gap: 8px;
+  }
+  .header-menu-modal-list {
+    list-style-type: none;
+  }
+  .header-menu-modal-button {
+    display: block;
+    min-width: 115px;
+    min-height: 42px;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    background-color: transparent;
+    color: var(--beige);
+    border-radius: 12px;
+    transition: 0.25s;
+  }
+  .header-menu-modal-button:hover,
+  .header-menu-modal-button:focus {
+    background-color: var(--beige);
+    color: var(--purple-hover);
+  }
+  .header-menu-shop-button {
+    display: block;
+    min-width: 155px;
+    min-height: 50px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--beige);
+    color: var(--purple);
+    border-radius: 30px;
+    transition: 0.25s;
+  }
+  .header-menu-shop-button:hover,
+  .header-menu-shop-button:focus {
+    color: rgba(122, 49, 69, 0.7);
+  }
+  .is-open {
+    display: block;
+  }
 
   /* Burger Menu */
 
