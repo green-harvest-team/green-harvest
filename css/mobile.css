@@ -114,6 +114,7 @@ body {
   background-color: var(--purple);
 }
 .header-menu-modal {
+  background-color: var(--background-2);
   position: relative;
   display: flex;
   align-items: center;
