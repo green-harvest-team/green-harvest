@@ -55,8 +55,136 @@ body {
 
 /* Section Two */
 
-/* Section Three */
+.bg {
+  background: var(--background-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
+.second-section-container .hero-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 80px 10px;
+  width: 375px;
+  height: 469px;
+  background: var(--main-text);
+}
+.hero-header {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--text);
+  padding: 80px 10px;
+  width: 375px;
+  height: 469px;
+}
+.spann {
+  border-radius: 12px;
+  width: 355px;
+  height: 102px;
+  background: var(--background);
+  color: var(--main-text);
+}
+/* Section Three */
+.three-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px 20px;
+  width: 375px;
+  height: 2766px;
+  background: var(--background-2);
+}
+
+.container-sectionthree {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  padding: 15px 20px;
+  width: 375px;
+  height: 2766px;
+  background: var(--background-2);
+}
+.container-sectionthree .section-header {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 104%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--main-text);
+}
+.container-sectionthree .section-header .vegetables {
+  color: rgba(251, 251, 251, 0.3);
+}
+.paragraph {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--main-text);
+}
+.section-ul-six {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 334px;
+  height: 2374px;
+}
+
+.list-image-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 40px;
+  padding: 32px 26px;
+  width: 334px;
+  height: 379px;
+  background: var(--main-text);
+}
+
+.items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 14px;
+  width: 282px;
+  height: 315px;
+}
+.list-image-container-text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: var(--background-2);
+}
+.list-image-container-texttwo {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--text);
+}
 /* Section Four */ /* Levent KOYBASI */
 
 .section-four {
