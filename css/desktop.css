@@ -28,9 +28,126 @@ body {
   /* Section One */
 
   /* Section Two */
+  .second-section.container .hero-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--main-text);
+    color: var(--text);
+  }
 
+  .spann {
+    border-radius: 12px;
+    width: 808px;
+    height: 86px;
+    background: var(--background);
+  }
   /* Section Three */
 
+  .bg {
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .three-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+    width: 1280px;
+    height: 1229px;
+  }
+
+  .container-sectionthree {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 626px;
+    height: 193px;
+  }
+  .container-sectionthree .section-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--main-text);
+  }
+  .container-sectionthree .section-header .vegetables {
+    color: rgba(251, 251, 251, 0.3);
+  }
+  .paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main-text);
+  }
+  .section-ul-six {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 21px;
+    width: 1080px;
+    height: 786px;
+  }
+
+  .list-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 32px;
+    width: 346px;
+    height: 379px;
+    background: var(--main-text);
+  }
+  .items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 282px;
+    height: 315px;
+  }
+  .kutu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-image-container-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--background-2);
+  }
+  .list-image-container-texttwo {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
   /* Section Four */
 
   /* Section Five */

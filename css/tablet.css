@@ -29,7 +29,127 @@ body {
 
   /* Section Two */
 
+  .bg {
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-section-container .hero-header {
+    gap: 10px;
+    padding: 100px 16px;
+    width: 768px;
+    height: 488px;
+    background: var(--main-text);
+  }
+  .hero-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 109%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+  .spann {
+    border-radius: 12px;
+    width: 736px;
+    height: 86px;
+    background: var(--background);
+  }
   /* Section Three */
+  .three-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 100%;
+    height: 1600px;
+    background: var(--background-2);
+  }
+
+  .container-sectionthree {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 626px;
+    height: 193px;
+  }
+  .container-sectionthree .section-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--main-text);
+  }
+  .container-sectionthree .section-header .vegetables {
+    color: rgba(251, 251, 251, 0.3);
+  }
+  .paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main-text);
+  }
+  .section-ul-six {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 28px;
+    width: 704px;
+    height: 1193px;
+  }
+  .list-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 32px 30px;
+    width: 342px;
+    height: 379px;
+    background: var(--main-text);
+  }
+  .items {
+    border-radius: 40px;
+    padding: 32px 30px;
+    width: 342px;
+    height: 379px;
+  }
+  .list-image-container-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--background-2);
+  }
+  .list-image-container-texttwo {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
 
   /* Section Four */
 
