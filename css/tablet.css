@@ -121,4 +121,90 @@ body {
   /* Section Six */
 
   /* Footer */
+  footer {
+    min-width: 768px;
+    padding: 32px 0px 32px;
+    width: Hug (768px) px;
+    height: Hug (479px) px;
+    top: 6989px;
+    padding: 32px 0px 0px 0px;
+    gap: 100px;
+    opacity: 0px;
+  }
+  .logo-svg {
+    display: none;
+  }
+  .logo-tab-des {
+    display: inline;
+  }
+  .container {
+    min-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-list-container {
+    margin-top: 0px;
+  }
+  .first-container {
+    max-width: 265px;
+  }
+  .logo-par-container {
+    gap: 25px;
+  }
+  .footer-par {
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .local-links-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .local-links-items {
+    font-family: "Inter Tight";
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .tel-address-items {
+    font-family: "Inter Tight";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .tel-address-link {
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .tel-address {
+    gap: 25px;
+    margin-top: 64px;
+  }
+  .down-link {
+    font-size: 18px;
+  }
+  .priv-pol-container {
+    margin-top: 100px;
+  }
+}
+.set:hover,
+.set:focus {
+  color: #fbfbfb;
 }
