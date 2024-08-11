@@ -17,7 +17,7 @@ body {
 @media screen and (min-width: 1280px) {
   /* Helper Class */
   .container {
-    max-width: 1080px;
+    max-width: 1280px;
   }
 
   /* Header */
@@ -148,11 +148,95 @@ body {
     text-transform: uppercase;
     color: var(--text);
   }
-  /* Section Four */
+  
+  /* Section Four */ /* Levent KOYBASI */
+  .fresh-harvest-main-container {
+    padding: 100px 100px;
+    min-width: 1280px;
+  }
+  .fresh-harvest-container {
+    min-width: 1080px;
+  }
+  .fresh-harvest {
+    align-self: self-start;
+    width: 751px;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+  .order-form-social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .ordering-form-container {
+    border-radius: 30px;
+    padding: 50px;
+    width: 529px;
+    height: 534px;
+  }
+  .order-social {
+    border-radius: 30px;
+    padding: 50px;
+    width: 527px;
+    height: 534px;
+  }
+  .social-img {
+    border-radius: 15px;
+    width: 427px;
+    height: 273px;
+  }
+ 
 
-  /* Section Five */
-
+  /* Section Five Sudenur ÇELİK*/
+  .section-five {
+    padding: 100px;
+    width: 1280px;
+    height: 701px;
+  }
+  .customer {
+    gap: 25px;
+  }
+  .customer-card:nth-child(3) {
+    display: flex;
+  }
   /* Section Six */
 
   /* Footer */
+  footer {
+    min-width: 1280px;
+    padding: 50px 0px;
+    width: Fixed (1, 280px) px;
+    height: Hug (391px) px;
+    top: 4906px;
+    padding: 50px 100px 50px 100px;
+    gap: 125px;
+    opacity: 0px;
+  }
+  .footer-wrap {
+    flex-direction: row;
+  }
+  .des-position {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .section-list-container {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .tel-address {
+    margin-top: 0px;
+  }
+  .tel-address-link {
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .priv-pol-container {
+    margin-top: 125px;
+  }
 }
