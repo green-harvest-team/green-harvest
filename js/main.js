@@ -1,16 +1,12 @@
 // Main JS
+const menuOpenButton = document.querySelector("#menu-open-button");
+const menuHamburger = document.querySelector("#hamburger-menu");
+const menuCloseButton = document.querySelector("#menu-close-button");
 
-// Burger Menu Js (Onektir................................................................)
-const burgerMenu = document.querySelector(".burger-menu");
-const navLinks = document.querySelector(".nav-links");
-const navLinksArray = Array.from(navLinks.children);
-
-burgerMenu.addEventListener("click", () => {
-  navLinks.classList.toggle("show");
+menuOpenButton.addEventListener("click", () => {
+  menuHamburger.classList.add("is-open");
 });
 
-navLinksArray.forEach((link) => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("show");
-  });
+menuCloseButton.addEventListener("click", () => {
+  menuHamburger.classList.remove("is-open");
 });
