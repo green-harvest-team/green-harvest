@@ -39,7 +39,7 @@ button {
 /* Styles for mobile screens 375px - Mobile First */
 body {
   font-family: var(--font-family);
-  background-color: var(--background);
+/*   background-color: var(--background); */
   font-size: 16px;
 }
 /* Helper Class */
