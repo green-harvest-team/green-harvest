@@ -19,7 +19,6 @@ body {
   .container {
     max-width: 1280px;
     margin: 0 auto;
-
   }
 
   /* Header */
@@ -252,8 +251,22 @@ body {
     text-transform: uppercase;
     color: var(--text);
   }
-  
-  /* Section Four */ /* Levent KOYBASI */
+
+  /* Section Four */
+
+  /* Section Five Sudenur ÇELİK*/
+  .section-five {
+    padding: 100px;
+    width: 1280px;
+    height: 701px;
+  }
+  .customer {
+    gap: 25px;
+  }
+  .customer-card:nth-child(3) {
+    display: flex;
+  }
+  /* Section Six */ /* Levent KOYBASI */
   .fresh-harvest-main-container {
     padding: 100px 100px;
     min-width: 1280px;
@@ -289,22 +302,6 @@ body {
     width: 427px;
     height: 273px;
   }
- 
-
-  /* Section Five Sudenur ÇELİK*/
-  .section-five {
-    padding: 100px;
-    width: 1280px;
-    height: 701px;
-  }
-  .customer {
-    gap: 25px;
-  }
-  .customer-card:nth-child(3) {
-    display: flex;
-  }
-  /* Section Six */
-
   /* Footer */
   footer {
     min-width: 1280px;
