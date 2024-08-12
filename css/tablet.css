@@ -18,6 +18,7 @@ body {
   /* Helper Class */
   .container {
     max-width: 704px;
+    margin: 0 auto;
   }
 
   /* Header */
@@ -28,7 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 32px 32px 0 32px;
   }
   .header-logo {
     display: flex;
@@ -37,7 +38,93 @@ body {
   .header-navbar {
     display: none;
   }
-  /* HERO */
+
+  /* Burger Menu */
+  .header-menu-background {
+    display: none;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(20, 20, 20, 0.4);
+  }
+  .header-menu-modal {
+    position: absolute;
+    left: auto;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-2);
+    width: 351px;
+    height: 100%;
+    padding: 40px;
+  }
+  .header-menu-modal-close-button {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+  .header-menu-modal-close {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .header-menu-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .header-menu-modal-pages {
+    display: flex;
+    flex-direction: column;
+    padding-top: 288px;
+    gap: 8px;
+  }
+  .header-menu-modal-list {
+    list-style-type: none;
+  }
+  .header-menu-modal-button {
+    display: block;
+    min-width: 115px;
+    min-height: 42px;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    background-color: transparent;
+    color: var(--main-text);
+    border-radius: 12px;
+    transition: 0.25s;
+    font-weight: 500;
+  }
+  .header-menu-modal-button:hover,
+  .header-menu-modal-button:focus {
+    background-color: var(--main-text);
+    color: var(--background-2);
+  }
+  .header-menu-shop-button {
+    display: block;
+    min-width: 155px;
+    min-height: 50px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--main-text);
+    color: var(--background-2);
+    border-radius: 30px;
+    transition: 0.25s;
+  }
+  .header-menu-shop-button:hover,
+  .header-menu-shop-button:focus {
+    background: #622133;
+  }
+  .is-open {
+    display: block;
+  }
+  /* Main */
+  /* Section One */
   .hero {
     background-color: #576f35;
   }
@@ -72,94 +159,6 @@ body {
     width: 100%;
     object-fit: cover;
   }
-  /* MENU MODAL */
-  .header-menu-background {
-    display: none;
-    align-items: center;
-    justify-content: right;
-    position: fixed;
-    inset: 0;
-    background-color: rgba(20, 20, 20, 0.4);
-  }
-  .header-menu-modal {
-    position: absolute;
-    left: auto;
-    right: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--purple);
-    width: 351px;
-    height: 100%;
-    padding: 40px;
-  }
-  .header-menu-modal-close-button {
-    display: flex;
-    justify-content: right;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
-  .header-menu-modal-close {
-    display: block;
-    background-color: transparent;
-    border: none;
-  }
-  .header-menu-modal-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  .header-menu-modal-pages {
-    display: flex;
-    flex-direction: column;
-    padding-top: 288px;
-    gap: 8px;
-  }
-  .header-menu-modal-list {
-    list-style-type: none;
-  }
-  .header-menu-modal-button {
-    display: block;
-    min-width: 115px;
-    min-height: 42px;
-    border: 1px solid rgba(251, 251, 251, 0.4);
-    background-color: transparent;
-    color: var(--beige);
-    border-radius: 12px;
-    transition: 0.25s;
-  }
-  .header-menu-modal-button:hover,
-  .header-menu-modal-button:focus {
-    background-color: var(--beige);
-    color: var(--purple-hover);
-  }
-  .header-menu-shop-button {
-    display: block;
-    min-width: 155px;
-    min-height: 50px;
-    border: none;
-    font-weight: 600;
-    background-color: var(--beige);
-    color: var(--purple);
-    border-radius: 30px;
-    transition: 0.25s;
-  }
-  .header-menu-shop-button:hover,
-  .header-menu-shop-button:focus {
-    color: rgba(122, 49, 69, 0.7);
-  }
-  .is-open {
-    display: block;
-  }
-
-  /* Burger Menu */
-
-  /* Main */
-  /* Section One */
 
   /* Section Two */
 
