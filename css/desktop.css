@@ -28,7 +28,7 @@ body {
     position: relative;
   }
   .header-content {
-    position: fixed;
+    position: absolute;
     z-index: 99;
     display: flex;
     min-width: 1080px;
