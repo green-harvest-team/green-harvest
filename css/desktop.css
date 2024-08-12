@@ -19,6 +19,7 @@ body {
   .container {
     max-width: 1280px;
     margin: 0 auto;
+
   }
 
   /* Header */
@@ -131,14 +132,215 @@ body {
   }
 
   /* Section Two */
+  .second-section.container .hero-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--main-text);
+    color: var(--text);
+  }
 
+  .spann {
+    border-radius: 12px;
+    width: 808px;
+    height: 86px;
+    background: var(--background);
+  }
   /* Section Three */
 
-  /* Section Four */
+  .bg {
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .three-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+    width: 1280px;
+    height: 1229px;
+  }
 
-  /* Section Five */
+  .container-sectionthree {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 626px;
+    height: 193px;
+  }
+  .container-sectionthree .section-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--main-text);
+  }
+  .container-sectionthree .section-header .vegetables {
+    color: rgba(251, 251, 251, 0.3);
+  }
+  .paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main-text);
+  }
+  .section-ul-six {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 21px;
+    width: 1080px;
+    height: 786px;
+  }
 
+  .list-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 32px;
+    width: 346px;
+    height: 379px;
+    background: var(--main-text);
+  }
+  .items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 282px;
+    height: 315px;
+  }
+  .kutu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-image-container-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--background-2);
+  }
+  .list-image-container-texttwo {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+  
+  /* Section Four */ /* Levent KOYBASI */
+  .fresh-harvest-main-container {
+    padding: 100px 100px;
+    min-width: 1280px;
+  }
+  .fresh-harvest-container {
+    min-width: 1080px;
+  }
+  .fresh-harvest {
+    align-self: self-start;
+    width: 751px;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+  .order-form-social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .ordering-form-container {
+    border-radius: 30px;
+    padding: 50px;
+    width: 529px;
+    height: 534px;
+  }
+  .order-social {
+    border-radius: 30px;
+    padding: 50px;
+    width: 527px;
+    height: 534px;
+  }
+  .social-img {
+    border-radius: 15px;
+    width: 427px;
+    height: 273px;
+  }
+ 
+
+  /* Section Five Sudenur ÇELİK*/
+  .section-five {
+    padding: 100px;
+    width: 1280px;
+    height: 701px;
+  }
+  .customer {
+    gap: 25px;
+  }
+  .customer-card:nth-child(3) {
+    display: flex;
+  }
   /* Section Six */
 
   /* Footer */
+  footer {
+    min-width: 1280px;
+    padding: 50px 0px;
+    width: Fixed (1, 280px) px;
+    height: Hug (391px) px;
+    top: 4906px;
+    padding: 50px 100px 50px 100px;
+    gap: 125px;
+    opacity: 0px;
+  }
+  .footer-wrap {
+    flex-direction: row;
+  }
+  .des-position {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .section-list-container {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .tel-address {
+    margin-top: 0px;
+  }
+  .tel-address-link {
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .priv-pol-container {
+    margin-top: 125px;
+  }
 }

@@ -1,6 +1,8 @@
-# GREEN HARVEST
+# [GREEN HARVEST](https://green-harvest-team.github.io/green-harvest/)
 
-![Green Harvest Website](./assets/img/green-harvest.jpg)
+
+[![Green Harvest Website](./assets/img/green-harvest.jpg)](https://green-harvest-team.github.io/green-harvest/)
+
 
 **Green Harvest** is your go-to source for the freshest and highest quality organic vegetables. Our carefully curated vegetable baskets are designed to bring the best produce right to your doorstep. With Green Harvest, you can enjoy farm-fresh vegetables without ever leaving your home.
 

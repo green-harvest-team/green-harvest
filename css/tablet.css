@@ -162,13 +162,302 @@ body {
 
   /* Section Two */
 
-  /* Section Three */
+  .bg {
+    background: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 
-  /* Section Four */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-section-container .hero-header {
+    gap: 10px;
+    padding: 100px 16px;
+    width: 768px;
+    height: 488px;
+    background: var(--main-text);
+  }
+  .hero-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 109%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+  .spann {
+    border-radius: 12px;
+    width: 736px;
+    height: 86px;
+    background: var(--background);
+  }
+  /* Section Three */
+  .three-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 100%;
+    height: 1600px;
+    background: var(--background-2);
+  }
+
+  .container-sectionthree {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 626px;
+    height: 193px;
+  }
+  .container-sectionthree .section-header {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--main-text);
+  }
+  .container-sectionthree .section-header .vegetables {
+    color: rgba(251, 251, 251, 0.3);
+  }
+  .paragraph {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main-text);
+  }
+  .section-ul-six {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 28px;
+    width: 704px;
+    height: 1193px;
+  }
+  .list-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 32px 30px;
+    width: 342px;
+    height: 379px;
+    background: var(--main-text);
+  }
+  .items {
+    border-radius: 40px;
+    padding: 32px 30px;
+    width: 342px;
+    height: 379px;
+  }
+  .list-image-container-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: var(--background-2);
+  }
+  .list-image-container-texttwo {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+
+  /* Section Four */ /* Levent KOYBASI */
+  .fresh-harvest-main-container {
+    padding: 100px 70px;
+    min-width: 768px;
+  }
+  .fresh-harvest-container {
+    min-width: 638px;
+  }
+  .fresh-harvest {
+    margin-left: -38px;
+    align-self: self-start;
+    width: 640px;
+    gap: 25px;
+  }
+  .fresh-harvest-title {
+    font-size: 64px;
+    line-height: 100%;
+  }
+  .fesh-harvest-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .ordering-form-container {
+    padding: 50px 100px;
+    width: 628px;
+    margin-bottom: 25px;
+  }
+  .ordering-form {
+    width: 428px;
+    gap: 40px;
+  }
+  .form textarea {
+    margin-bottom: 10px;
+  }
+  .order-social {
+    gap: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    width: 628px;
+  }
+  .social-img {
+    background-size: 110%;
+    width: 528px;
+    height: 273px;
+  }
+  .social-links {
+    gap: 12px;
+  }
 
   /* Section Five */
-
+  .section-five {
+    padding: 100px 32px;
+    height: 701px;
+  }
+  .reviews-header {
+    width: 553px;
+  }
+  .reviews-header p {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .section-reviews {
+    font-size: 64px;
+    line-height: 100%;
+  }
+  .customer {
+    display: flex;
+    gap: 18px;
+  }
+  .customer-card {
+    padding: 20px;
+    width: 343px;
+    height: 258px;
+    margin-top: 50px;
+  }
+  .customer-card:nth-child(2) {
+    display: flex;
+  }
+  .card-details h3 {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  .card-details p {
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(20, 20, 20, 0.4);
+  }
   /* Section Six */
 
   /* Footer */
+  footer {
+    min-width: 768px;
+    padding: 32px 0px 32px;
+    width: Hug (768px) px;
+    height: Hug (479px) px;
+    top: 6989px;
+    padding: 32px 0px 0px 0px;
+    gap: 100px;
+    opacity: 0px;
+  }
+  .logo-svg {
+    display: none;
+  }
+  .logo-tab-des {
+    display: inline;
+  }
+  .container {
+    min-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-list-container {
+    margin-top: 0px;
+  }
+  .first-container {
+    max-width: 265px;
+  }
+  .logo-par-container {
+    gap: 25px;
+  }
+  .footer-par {
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .local-links-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .local-links-items {
+    font-family: "Inter Tight";
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .tel-address-items {
+    font-family: "Inter Tight";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .tel-address-link {
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .tel-address {
+    gap: 25px;
+    margin-top: 64px;
+  }
+  .down-link {
+    font-size: 18px;
+  }
+  .priv-pol-container {
+    margin-top: 100px;
+  }
+}
+.set:hover,
+.set:focus {
+  color: #fbfbfb;
 }
