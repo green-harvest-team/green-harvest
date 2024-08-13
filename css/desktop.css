@@ -130,6 +130,18 @@ body {
     display: none;
   }
   /* Section Four */
+  .section-four {
+    display: flex;
+    flex-direction: row;
+  }
+  .section-bgc {
+    width: 664px;
+    padding: 100px;
+    margin: 0;
+  }
+  .step-part-container {
+    width: 650px;
+  }
 
   /* Section Two */
   .second-section.container .hero-header {

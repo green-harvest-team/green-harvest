@@ -160,7 +160,20 @@ body {
     object-fit: cover;
   }
   /* Section Four */
-
+  .section-bgc {
+    padding: 100px 64px;
+  }
+  .step-part-title {
+    font-size: 32px;
+  }
+  .step-part-description {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .step-card-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
   /* Section Two */
 
   .bg {
