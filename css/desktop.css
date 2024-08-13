@@ -133,6 +133,7 @@ body {
   .section-four {
     display: flex;
     flex-direction: row;
+    background-color: var(--background);
   }
   .section-bgc {
     width: 664px;
