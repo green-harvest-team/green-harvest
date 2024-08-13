@@ -78,7 +78,7 @@ body {
   justify-content: center;
   position: fixed;
   inset: 0;
-  background-color: var(--purple);
+  background-color: var(--background-2);
 }
 .header-menu-modal {
   background-color: var(--background-2);
@@ -205,7 +205,113 @@ body {
   width: 100%;
   object-fit: cover;
 }
-
+/* Section Four */
+/* image part */
+.section-bgc {
+  background-color: var(--background-2);
+  margin: 0 auto;
+}
+.image-partition-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 20px;
+}
+.image-partition-container {
+  display: inline-block;
+  background: rgba(20, 20, 20, 0.3) url("../assets/img/image-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 30px;
+  width: 335px;
+  height: 450px;
+}
+/* step part */
+.step-part-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: var(--background);
+  padding: 80px 20px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.step-part-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--main-text);
+}
+.step-part-title span {
+  color: rgba(251, 251, 251, 0.3);
+}
+.step-part-description {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--main-text);
+}
+.step-card-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.step-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: var(--main-text);
+  border-radius: 15px;
+  padding: 17px 27px 17px 24px;
+  width: 335px;
+  height: 76px;
+}
+.step-number-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  color: var(--main-text);
+  border-radius: 100%;
+  fill: var(--background-2);
+  stroke-width: 5px;
+  stroke: rgba(122, 49, 69, 0.3);
+}
+.step-card-number {
+  position: absolute;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--main-text);
+}
+.step-card-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+}
+.step-card-text span {
+  font-weight: 700;
+  color: var(--text);
+}
 /* Section Two */
 
 .bg {
@@ -338,7 +444,6 @@ body {
   text-transform: uppercase;
   color: var(--text);
 }
-/* Section Four */
 
 /* Section Five Sudenur ÇELİK*/
 .section-five {

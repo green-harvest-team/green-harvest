@@ -129,6 +129,7 @@ body {
   .header-menu-background {
     display: none;
   }
+  /* Section Four */
 
   /* Section Two */
   .second-section.container .hero-header {
@@ -251,8 +252,6 @@ body {
     text-transform: uppercase;
     color: var(--text);
   }
-
-  /* Section Four */
 
   /* Section Five Sudenur ÇELİK*/
   .section-five {
