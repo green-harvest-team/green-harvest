@@ -133,7 +133,12 @@ body {
   }
   /* Section Four */
   .section-four-bgc {
-    background-color: var(--background);
+    /* background-color: var(--background); */
+    background: linear-gradient(
+      to right,
+      var(--background-2) 50%,
+      var(--background) 50%
+    );
   }
   .section-four {
     display: flex;
