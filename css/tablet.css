@@ -17,9 +17,10 @@ body {
 @media screen and (min-width: 768px) {
   /* Helper Class */
   .container {
-    max-width: 704px;
+    max-width: 768px;
     margin: 0 auto;
   }
+  Ş
 
   /* Header */
   .header {
@@ -175,41 +176,16 @@ body {
     line-height: 125%;
   }
   /* Section Two */
-
-  .bg {
-    background: var(--background-2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .second-section-container .hero-header {
-    gap: 10px;
+  .discount-main {
     padding: 100px 16px;
-    width: 768px;
-    height: 488px;
-    background: var(--main-text);
   }
-  .hero-header {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 70px;
+  .discount-header {
+    font-size: 64px;
     line-height: 109%;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: var(--text);
   }
-  .spann {
-    border-radius: 12px;
+  .discount-span {
     width: 736px;
     height: 86px;
-    background: var(--background);
   }
   /* Section Three */
   .three-section {
@@ -232,6 +208,7 @@ body {
     gap: 25px;
     width: 626px;
     height: 193px;
+    margin-bottom: 50px;
   }
   .container-sectionthree .section-header {
     font-family: var(--font-family);
@@ -403,7 +380,7 @@ body {
   .logo-tab-des {
     display: inline;
   }
-  .container {
+  .footer-container {
     min-width: 768px;
     padding-left: 32px;
     padding-right: 32px;

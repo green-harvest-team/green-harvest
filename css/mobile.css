@@ -320,27 +320,14 @@ body {
   color: var(--text);
 }
 /* Section Two */
-
-.bg {
-  background: var(--background-2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.second-section-container .hero-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 10px;
-  padding: 80px 10px;
-  width: 375px;
-  height: 469px;
+.section-two-bgc {
   background: var(--main-text);
 }
-.hero-header {
+.discount-main {
+  padding: 80px 10px;
+  background: var(--main-text);
+}
+.discount-header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 48px;
@@ -348,17 +335,21 @@ body {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: var(--text);
-  padding: 80px 10px;
-  width: 375px;
-  height: 469px;
 }
-.spann {
+.discount-span {
+  display: block;
   border-radius: 12px;
   width: 355px;
   height: 102px;
   background: var(--background);
   color: var(--main-text);
+  padding: 3px 10px;
 }
+.discount-span-text {
+  display: inline-block;
+  padding: 3px 10px;
+}
+
 /* Section Three */
 .three-section {
   display: flex;
@@ -379,7 +370,7 @@ body {
   flex-direction: column;
   gap: 40px;
   padding: 15px 20px;
-  width: 375px;
+  max-width: 375px;
   height: 2766px;
   background: var(--background-2);
 }
